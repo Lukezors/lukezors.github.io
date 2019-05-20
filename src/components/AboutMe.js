@@ -29,7 +29,7 @@ function AboutMe() {
       <Container>
         <AppLogo src={logo} alt="logo" />
         <AboutParagraph>
-          Hello! I am Luke Chamberlain a senior software developer at Klipfolio.
+          Hello! I am Luke Chamberlain, a senior software developer at Klipfolio.
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
