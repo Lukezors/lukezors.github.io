@@ -3,6 +3,7 @@ import "./css/App.css";
 import SectionHeader from "./components/SectionHeader";
 import AboutMe from "./components/AboutMe";
 import BulletListBlock from "./components/BulletListBlock";
+import Separator from "./components/Seperator";
 import styled, { createGlobalStyle } from "styled-components";
 
 // .App-link {
@@ -14,13 +15,10 @@ const CoolBorder = styled.div`
   border: 8px dashed white;
   outline: 8px dashed white;
   outline-offset: 16px;
-  margin: 20px;
+  margin: 30px 20px;
 `;
 
-const Separator = styled.div`
-  border: 6px dashed white;
-  margin: 20px;
-`;
+
 //Why can't I add the fon't fance declartion here??
 const GlobalStyle = createGlobalStyle`
   @keyframes App-logo-spin {
@@ -47,7 +45,8 @@ const interests = [
   "Learning",
   "Tabletop RPGs",
   "Board Games",
-  "Game Design"
+  "Game Design",
+  "Something Else"
 ];
 
 const skills = ["Java", "Grails", "Javascript", "React", "OAuth", "SQL"];
