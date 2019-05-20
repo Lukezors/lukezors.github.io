@@ -2,8 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import SectionHeader from "./SectionHeader";
 
-
-
 class BulletListBlock extends React.Component {
   render() {
     const { text, items } = this.props;
@@ -11,9 +9,9 @@ class BulletListBlock extends React.Component {
       <React.Fragment>
         <SectionHeader text={text} />
         <ul>
-        {items.map(function(name, index){
-                    return <li key={ index }>{name}</li>;
-        })}
+          {items.map(function(name, index) {
+            return <li key={index}>{name}</li>;
+          })}
         </ul>
       </React.Fragment>
     );
