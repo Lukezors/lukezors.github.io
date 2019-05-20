@@ -1,11 +1,10 @@
 import React from 'react';
-import '../css/LukeHeader.css';
 
 function LukeHeader() {
     return (
-      <div className="LukeHeader">
+      <h2>
           Luke Chamberlain is Learning React and other things!
-      </div>
+      </h2>
     )
 }
 
