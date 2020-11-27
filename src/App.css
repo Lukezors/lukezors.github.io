@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'munro';
+  src: url('./munro.ttf') format('truetype');
+}
+
+body {    
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: munro;
+}
+
+.CoolBorder {
+  padding: 16px;
+  border: 8px dashed white;
+  outline: 8px dashed white;
+  outline-offset: 16px;
+  margin: 30px 20px;
+}

@@ -1,10 +1,6 @@
 import React from "react";
-import styled from "styled-components";
+import './SectionHeader.css'
 
-const Header = styled.h2`
-  text-align: center;
-`;
-
-const SectionHeader = props => <Header>{props.text}</Header>;
+const SectionHeader = props => <h2 className='Header'>{props.text}</h2>;
 
 export default SectionHeader;
